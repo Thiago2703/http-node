@@ -8,7 +8,11 @@
   },
   "main": "http.js",
   "license": "MIT",
+  "chromeapp": {
+    "net": "chrome-net"
+  },
   "dependencies": {
+    "chrome-net": "^3.3.3",
     "freelist": "^1.0.3",
     "http-parser-js": "^0.4.3"
   },
